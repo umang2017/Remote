@@ -19,6 +19,11 @@
 	<dependencies>
 		<!-- Spring core & mvc -->
 		<dependency>
+        <groupId><yourGroupID></groupId>
+        <artifactId><yourArtifactId></artifactId>
+        <version><yourVersion></version>
+    </dependency>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
